@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    #levelSelect{
+        color: white;
+        cursor: pointer;
+    }
+#instructions{
+    color: white;
+}
+.container{
+  color:white;  
+}
+h1{
+    color: white;
+}
+button{
+    background-color: black;
+    color:white
+}
+
+.aircraft{
+    color: white;
+}
+li{
+    color: white;
+}
+p{
+    color: white;
+}
