@@ -16,6 +16,9 @@ body{
     color: white;
 }
 
+select{
+    color: black;
+}
 
 #levelSelect{
         color: white;
