@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+
+#levelSelect{
+        color: white;
+        cursor: pointer;
+    }
+#instructions{
+    color: white;
+    flex-direction: column;
+    align-content: center;
+}
+#level1Briefing{
+    flex-direction: column;
+    align-content: center;
+}
+
+#level2Briefing{
+    flex-direction: column;
+    align-content: center;
+}
+
+#level3Briefing{
+    flex-direction: column;
+    align-content: center;
+}
+
+#statsPanal{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 220px;
+    background: black;
+    color: lime;
+    padding: 10px;
+    font-family: monospace;
+    border: 2px solid lime;
+}
+
+#level1{
+    flex-direction: column;
+    align-content: center;
+}
+
+#level2{
+    flex-direction: column;
+    align-content: center;
+}
+
+#level3{
+    flex-direction: column;
+    align-content: center;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+
+button{
+    background-color: black;
+    color:white
+}
+
+
+li{
+    color: white;
+}
+p{
+    color: white;
+}
