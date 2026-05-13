@@ -1,6 +1,7 @@
 const root = document.createElement("div");
 root.id = "game";
 let carrier = null
+repairCooldown = 0;
 console.log(repairCooldown)
 function startGame() {
   if (!document.getElementById("game")) {
